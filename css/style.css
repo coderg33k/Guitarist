@@ -1,6 +1,33 @@
-.burger-menu {
-  background: url("../img/menu.png");
-  width: 50px;
-  height: 25px;
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 40px;
+}
+
+header .burger-menu {
+  border: none;
+  background-color: white;
+  padding-left: 90px;
+}
+
+header .burger-menu img {
+  width: 29px;
+}
+
+header nav ul {
+  display: none;
 }
 /*# sourceMappingURL=style.css.map */
